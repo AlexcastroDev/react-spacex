@@ -1,0 +1,6 @@
+const colors = {
+    primary: '#FFFFFF',
+    secondary: '#000000'
+}
+
+export default colors

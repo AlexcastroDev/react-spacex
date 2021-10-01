@@ -1,0 +1,11 @@
+@font-face {
+    font-family: D-DIN;
+    src: url("./fonts/D-DIN.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: D-DIN-Bold;
+    font-weight: bold;
+    src: url("./fonts/D-DIN-Bold.otf") format("opentype");
+}
