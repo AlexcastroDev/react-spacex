@@ -1,20 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import { Home } from "./screens/Home";
-import {ThemeProvider} from "styled-components";
-import {theme} from './theme/index'
+import { ThemeProvider } from "styled-components";
+import { theme } from './theme/index'
+import './theme/styles.css'
 import './theme/font.css'
+import { App } from './screens/App/App';
 
 ReactDOM.render(
     <React.StrictMode>
         <ThemeProvider theme={theme}>
-            <Home/>
+            <App />
         </ThemeProvider>
     </React.StrictMode>,
     document.getElementById('root')
 );
 
-if(process.env.NODE_ENV === "development") {
+if (process.env.NODE_ENV === "development") {
     reportWebVitals();
 }
